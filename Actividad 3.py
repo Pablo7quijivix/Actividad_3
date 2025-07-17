@@ -1,6 +1,5 @@
 #SISTEMA ADMINISTRACIÓN ESTUDIANTES.
 estudiantes=[]
-
 while True:
     print("---Menú de Registro de Estudiantes---")
     print("1.Agregar Estudiante.\n 2.Eliminar Estudiante.\n 3.Mostrar Estudiantes\n 4.Calculo de Promedio \n 5.Salir")
@@ -23,14 +22,14 @@ while True:
 
     if opcion =="4":
         a= int(input("ingrese primera nota: "))
-        b= int (input("ingrese segunda nota:"))
-        promedio= a+b /2
+        b=int(input("ingrese segunda nota:"))
+        promedio= (a+b)/2
         print (promedio)
 
 
     if opcion =="5":
         print(f"___Saliendo del sistema.........")
-        break
+    break
 
 
 

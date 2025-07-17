@@ -19,7 +19,7 @@ while True:
 
     if opcion =="3":
         for student in range(len(estudiantes)):
-            print(f"estudiante no.{student+1}__{estudiantes[student]")
+            print(f"estudiante no.{student+1}__{estudiantes[student]}")
 
     if opcion =="4":
         print(f"___Saliendo del sistema.........")

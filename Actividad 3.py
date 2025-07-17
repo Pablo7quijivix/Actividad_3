@@ -29,10 +29,7 @@ while True:
 
     if opcion =="5":
         print(f"___Saliendo del sistema.........")
-    break
-
-    else:
-    print("Opcion no disponible :(")
+        break
 
 
 

@@ -21,7 +21,7 @@ while True:
             print(f"estudiante no.{student+1}__{estudiantes[student]}")
 
     if opcion =="4":
-        a= int(input("ingrese primera nota: "))
+        a= int(input("ingrese primera nota.: "))
         b=int(input("ingrese segunda nota:"))
         promedio= (a+b)/2
         print (promedio)

@@ -11,10 +11,10 @@ while True:
         print(f"{estudiante_agregar} agregado exitosamente!")
 
     if opcion =="2":
-        estudiante_eliminar=input("Ingrese nombre de estudiante a eliminar:")
+        estudiante_eliminar=input("Ingrese nombre de estudiante a eliminar:").capitalize()
         if estudiante_eliminar in estudiantes:
             estudiantes.remove(estudiante_eliminar)
-        print(f"{estudiante_eliminar} eliminado Exitosamente!")
+            print(f"{estudiante_eliminar} eliminado Exitosamente!")
 
     if opcion =="3":
         for student in range(len(estudiantes)):

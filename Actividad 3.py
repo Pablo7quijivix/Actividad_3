@@ -11,6 +11,12 @@ while True:
         estudiantes.append(estudiante_agregar)
         print(f"{estudiante_agregar} agregado exitosamente!")
 
+    if opción =="2":
+        estudiante_eliminar=input("Ingrese nombre de estudiante a eliminar:")
+        if estudiante_eliminar in estudiantes:
+            estudiantes.remove(estudiante_eliminar)
+        print(f"{estudiante_eliminar} eliminado Exitosamente!")
+
 
 
 

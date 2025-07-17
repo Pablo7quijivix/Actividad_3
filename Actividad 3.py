@@ -18,11 +18,12 @@ while True:
         print(f"{estudiante_eliminar} eliminado Exitosamente!")
 
     if opcion =="3":
-        for listado in estudiantes:
-            print(f"___Mostrando Listado de estudiantes___\n {estudiantes}")
+        for student in range(len(estudiantes)):
+            print(f"estudiante no.{student+1}__{estudiantes[student]")
 
     if opcion =="4":
         print(f"___Saliendo del sistema.........")
+        break
 
 
 
